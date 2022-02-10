@@ -1,9 +1,5 @@
 ## Description
-PST-PRNA is a method to decipher RNA binding sites on protein surface based on protein surface topography.
-To achieve this, PST-PRNA builds the topographies and applies deep learning methods to learn from these.
-For convenient use, please visit the web service www.zpliulab.cn/PSTPRNA.
-For the standalone offline version, please install and use as follows.
-
+PST-PRNA is a method to decipher RNA binding sites on protein surface based on protein surface topography. To achieve this, PST-PRNA builds the topographies and applies deep learning methods to learn from these. For convenient use, please visit the web service www.zpliulab.cn/PSTPRNA. For the standalone offline version, please install and use as follows.
 
 ## Standard alone Software prerequisites
 * [Conda](https://docs.conda.io/en/latest/miniconda.html) Conda is recommended for environment management.
@@ -21,27 +17,23 @@ For the standalone offline version, please install and use as follows.
 * [scikit-learn](https://scikit-learn.org/) (0.24.1).
 
 ## Specific usage
-ONGOING
 
 ### 1 Download and install the standard alone software listed above.
-    Change the paths of these executable file at default_config/bin_path.py.
+Change the paths of these executable file at default_config/bin_path.py.
 
 
 ### 2 Topography preparing
-  a. The script 'protein.py' contains the class RBP which interates all procedures that are needed to convert a RBP to topographies.
-  b. And for each protein, it takes tens of minutes to calculates topographies. So we recommend using parallel computing tools, such as [slurm](https://slurm.schedmd.com/).
-    The bash script 'prepare_all.slurm' helps for extracting topographies in parallel cooperating with the python script 'prepare_all.py'.
-  c. Users can also use 'prepare_all.py' all alone for preprocessing data. The files containing RBP_ids are in data/pdbid_chain. And the path of PDB_id lists should be specific
-    the two 'prepare_all' scripts.
+a. The script 'protein.py' contains the class RBP which interates all procedures that are needed to convert a RBP to topographies.
+b. And for each protein, it takes tens of minutes to calculates topographies. So we recommend using parallel computing tools, such as [slurm](https://slurm.schedmd.com/). The bash script 'prepare_all.slurm' helps for extracting topographies in parallel cooperating with the python script 'prepare_all.py'.
+c. Users can also use 'prepare_all.py' all alone for preprocessing data. The files containing RBP_ids are in data/pdbid_chain. And the path of PDB_id lists should be specific the two 'prepare_all' scripts.
 
 ### 3 Training
-  To train an ab initio model, simply uses the script 'train.py'. Specific the RBPs list in default_config/dir_options:
-  python train.py
+To train an ab initio model, simply uses the script 'train.py'. Specific the RBPs list in default_config/dir_options:
+python train.py
 
 ### 4 Predicting
-  To predict new RNA-binding sites on newly protein, the topography preparing process is needed. Then
-  uses the script 'predict.py':
-  python predict.py
+To predict new RNA-binding sites on newly protein, the topography preparing process is needed. Then uses the script 'predict.py':
+python predict.py
 
 ## Lisence
 PST-PRNA is released under an [MIT Lisense](LICENSE)
