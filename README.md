@@ -23,22 +23,22 @@ For the standalone offline version, please install and use as follows.
 ## Specific usage
 ONGOING
 
-# 1 Download and install the standard alone software listed above.
+### 1 Download and install the standard alone software listed above.
     Change the paths of these executable file at default_config/bin_path.py.
 
 
-# 2 Topography preparing
+### 2 Topography preparing
   a. The script 'protein.py' contains the class RBP which interates all procedures that are needed to convert a RBP to topographies.
   b. And for each protein, it takes tens of minutes to calculates topographies. So we recommend using parallel computing tools, such as [slurm](https://slurm.schedmd.com/).
     The bash script 'prepare_all.slurm' helps for extracting topographies in parallel cooperating with the python script 'prepare_all.py'.
   c. Users can also use 'prepare_all.py' all alone for preprocessing data. The files containing RBP_ids are in data/pdbid_chain. And the path of PDB_id lists should be specific
     the two 'prepare_all' scripts.
 
-# 3 Training
+### 3 Training
   To train an ab initio model, simply uses the script 'train.py'. Specific the RBPs list in default_config/dir_options:
   python train.py
 
-# 4 Predicting
+### 4 Predicting
   To predict new RNA-binding sites on newly protein, the topography preparing process is needed. Then
   uses the script 'predict.py':
   python predict.py
