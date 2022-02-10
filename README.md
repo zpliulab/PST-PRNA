@@ -18,7 +18,7 @@ For the standalone offline version, please install and use as follows.
 ## Some important Python packages
 * [BioPython](https://github.com/biopython/biopython) (1.78). To parse PDB files.
 * [Pytorch](https://pytorch.org/) (1.7.1). pytorch with GPU version. Use to model, train, and evaluate the actual neural networks.
-* [scikit-learn](https://scikit-learn.org/)(0.24.1).
+* [scikit-learn](https://scikit-learn.org/) (0.24.1).
 
 ## Specific usage
 ONGOING

@@ -15,7 +15,6 @@ from default_config.dir_options import dir_opts
 
 from compute_surface.protonate import protonate
 from compute_surface.extractPDB import extractPDB
-from compute_surface.extractRNA import extractcom
 from compute_surface.extract_xyzrn import extract_xyzrn
 from compute_surface.apply_msms import computeMSMS
 
