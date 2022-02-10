@@ -23,8 +23,11 @@ Change the paths of these executable file at default_config/bin_path.py.
 
 
 ### 2 Topography preparing
+
 The script 'protein.py' contains the class RBP which interates all procedures that are needed to convert a RBP to topographies.
-And for each protein, it takes tens of minutes to calculates topographies. So we recommend using parallel computing tools, such as [slurm](https://slurm.schedmd.com/). The bash script 'prepare_all.slurm' helps for extracting topographies in parallel cooperating with the python script 'prepare_all.py'.
+
+For each protein, it takes tens of minutes to calculate topographies. So we recommend using parallel computing tools, such as [slurm](https://slurm.schedmd.com/). The bash script 'prepare_all.slurm' helps for extracting topographies in parallel cooperating with the python script 'prepare_all.py'.
+
 Users can also use 'prepare_all.py' all alone for preprocessing data. The files containing RBP_ids are in data/pdbid_chain. And the path of PDB_id lists should be specific the two 'prepare_all' scripts.
 
 
