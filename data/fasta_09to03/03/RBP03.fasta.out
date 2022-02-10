@@ -1,0 +1,11 @@
+Started Mon Sep  6 16:38:22 CST 2021
+Total seqs 599 in RBP04.fasta
+..........100 finished 88 clusters 103 passed 88/103 clstr/passed 17.19% done 1.27 cpu
+..........200 finished 174 clusters 207 passed 86/104 clstr/passed 34.55% done 1.93 cpu
+..........300 finished 262 clusters 301 passed 88/94 clstr/passed 50.25% done 2.49 cpu
+..........400 finished 350 clusters 406 passed 88/105 clstr/passed 67.77% done 3 cpu
+..........500 finished 441 clusters 505 passed 91/99 clstr/passed 84.3% done 3.44 cpu
+.........599 finished 528 clusters 599 passed 87/94 clstr/passed 100% done 4.39 cpu
+Completed Mon Sep  6 16:38:31 CST 2021
+
+Total CPUs on remote hosts: 0

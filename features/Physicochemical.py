@@ -1,0 +1,23 @@
+#Li,N. et al.(2008) Prediction of protein-protein binding site by using core interface residue and support vector machines
+li_scale = {}
+li_scale['A'] = (0,2)
+li_scale['C'] = (0,2)
+li_scale['D'] = (-1,4)
+li_scale['E'] = (-1,4)
+li_scale['F'] = (0,2)
+li_scale['G'] = (0,2)
+li_scale['H'] = (0,4)
+li_scale['I'] = (0,2)
+li_scale['K'] = (1,2)
+li_scale['L'] = (0,2)
+
+li_scale['M'] = (0,2)
+li_scale['N'] = (0,4)
+li_scale['P'] = (0,2)
+li_scale['Q'] = (0,4)
+li_scale['R'] = (1,4)
+li_scale['S'] = (0,4)
+li_scale['T'] = (0,4)
+li_scale['V'] = (0,2)
+li_scale['W'] = (0,3)
+li_scale['Y'] = (0,3)

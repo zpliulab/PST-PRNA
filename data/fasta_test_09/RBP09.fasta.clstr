@@ -1,0 +1,190 @@
+>Cluster 0
+0	1052aa, >7eu9_A... at 92.30%
+1	1077aa, >7d2l_A... *
+2	1077aa, >7d3j_A... at 99.91%
+>Cluster 1
+0	834aa, >7k98_B... at 100.00%
+1	836aa, >7k98_E... *
+2	834aa, >7k9m_B... at 100.00%
+3	835aa, >7ka0_B... at 100.00%
+4	835aa, >7ka0_E... at 100.00%
+5	835aa, >7kab_B... at 100.00%
+>Cluster 2
+0	677aa, >6zdq_A... *
+>Cluster 3
+0	672aa, >6zdp_A... *
+>Cluster 4
+0	626aa, >6zm2_A... *
+>Cluster 5
+0	511aa, >7a9w_A... *
+1	510aa, >7a9x_A... at 100.00%
+>Cluster 6
+0	425aa, >7m7m_A... at 99.76%
+1	430aa, >7m7r_A... *
+2	430aa, >7m89_A... at 99.53%
+3	430aa, >7m8a_A... at 99.53%
+4	430aa, >7m8b_A... at 99.53%
+5	430aa, >7m8c_A... at 99.53%
+6	430aa, >7m8d_A... at 99.53%
+>Cluster 7
+0	343aa, >7k98_A... *
+1	343aa, >7k98_D... at 100.00%
+2	339aa, >7k9m_A... at 100.00%
+3	340aa, >7ka0_A... at 99.71%
+4	337aa, >7ka0_D... at 99.70%
+5	336aa, >7kab_A... at 99.70%
+>Cluster 8
+0	295aa, >7c45_A... *
+>Cluster 9
+0	275aa, >7md7_1D... *
+1	275aa, >7md7_2D... at 100.00%
+>Cluster 10
+0	231aa, >7md7_1b... *
+1	231aa, >7md7_2b... at 100.00%
+>Cluster 11
+0	208aa, >7md7_1d... *
+1	208aa, >7md7_2d... at 100.00%
+>Cluster 12
+0	206aa, >7md7_1c... *
+1	206aa, >7md7_2c... at 100.00%
+>Cluster 13
+0	204aa, >7md7_1E... *
+1	204aa, >7md7_2E... at 100.00%
+>Cluster 14
+0	204aa, >7md7_1F... *
+1	203aa, >7md7_2F... at 100.00%
+>Cluster 15
+0	203aa, >7md7_1Z... *
+1	201aa, >7md7_2Z... at 100.00%
+>Cluster 16
+0	192aa, >7ndj_B... *
+>Cluster 17
+0	181aa, >7md7_1G... *
+1	181aa, >7md7_2G... at 100.00%
+>Cluster 18
+0	174aa, >7md7_1H... *
+1	173aa, >7md7_2H... at 100.00%
+>Cluster 19
+0	155aa, >7md7_1g... *
+1	155aa, >7md7_2g... at 100.00%
+>Cluster 20
+0	149aa, >7md7_1P... *
+1	149aa, >7md7_2P... at 100.00%
+>Cluster 21
+0	148aa, >7md7_1e... *
+1	148aa, >7md7_2e... at 100.00%
+>Cluster 22
+0	147aa, >7md7_1I... *
+1	146aa, >7md7_2I... at 100.00%
+>Cluster 23
+0	141aa, >7md7_1Q... *
+1	141aa, >7md7_2Q... at 100.00%
+>Cluster 24
+0	140aa, >7md7_1N... *
+1	140aa, >7md7_2N... at 100.00%
+>Cluster 25
+0	137aa, >7md7_1h... *
+1	137aa, >7md7_2h... at 100.00%
+>Cluster 26
+0	131aa, >7md7_1T... *
+1	131aa, >7md7_2T... at 100.00%
+>Cluster 27
+0	127aa, >7md7_1i... *
+1	126aa, >7md7_2i... at 100.00%
+>Cluster 28
+0	124aa, >7k5l_A... *
+>Cluster 29
+0	122aa, >7md7_1O... *
+1	122aa, >7md7_2O... at 100.00%
+>Cluster 30
+0	121aa, >7md7_1l... *
+1	121aa, >7md7_2l... at 100.00%
+>Cluster 31
+0	118aa, >7md7_1R... *
+1	118aa, >7md7_2R... at 100.00%
+>Cluster 32
+0	116aa, >7md7_1U... *
+1	116aa, >7md7_2U... at 100.00%
+>Cluster 33
+0	116aa, >7md7_1m... *
+1	114aa, >7md7_2m... at 100.00%
+>Cluster 34
+0	114aa, >7md7_1k... *
+1	114aa, >7md7_2k... at 100.00%
+>Cluster 35
+0	112aa, >7md7_1W... *
+1	112aa, >7md7_2W... at 100.00%
+>Cluster 36
+0	110aa, >7md7_1S... *
+1	110aa, >7md7_2S... at 100.00%
+>Cluster 37
+0	107aa, >7md7_1Y... *
+1	107aa, >7md7_2Y... at 100.00%
+>Cluster 38
+0	101aa, >7md7_1V... *
+1	101aa, >7md7_2V... at 100.00%
+>Cluster 39
+0	100aa, >7md7_1f... *
+1	100aa, >7md7_2f... at 100.00%
+>Cluster 40
+0	99aa, >7md7_1q... *
+1	99aa, >7md7_2q... at 100.00%
+>Cluster 41
+0	96aa, >7md7_1t... at 100.00%
+1	98aa, >7md7_2t... *
+>Cluster 42
+0	97aa, >7md7_11... *
+1	97aa, >7md7_21... at 100.00%
+>Cluster 43
+0	97aa, >7md7_1j... *
+1	96aa, >7md7_2j... at 100.00%
+>Cluster 44
+0	97aa, >7md7_1y... *
+1	96aa, >7md7_2y... at 100.00%
+>Cluster 45
+0	95aa, >7md7_1X... *
+1	95aa, >7md7_2X... at 100.00%
+>Cluster 46
+0	88aa, >7md7_1o... *
+1	88aa, >7md7_2o... at 100.00%
+>Cluster 47
+0	83aa, >7md7_1s... *
+1	83aa, >7md7_2s... at 100.00%
+>Cluster 48
+0	82aa, >7md7_1p... *
+1	82aa, >7md7_2p... at 100.00%
+>Cluster 49
+0	77aa, >7md7_10... *
+1	77aa, >7md7_20... at 100.00%
+>Cluster 50
+0	70aa, >7md7_12... *
+1	70aa, >7md7_22... at 100.00%
+>Cluster 51
+0	69aa, >7md7_24... *
+>Cluster 52
+0	68aa, >7md7_1r... *
+1	68aa, >7md7_2r... at 100.00%
+>Cluster 53
+0	64aa, >7md7_18... *
+1	64aa, >7md7_28... at 100.00%
+>Cluster 54
+0	60aa, >7md7_1n... *
+1	60aa, >7md7_2n... at 100.00%
+>Cluster 55
+0	59aa, >7md7_13... *
+1	59aa, >7md7_23... at 100.00%
+>Cluster 56
+0	59aa, >7md7_15... *
+1	59aa, >7md7_25... at 100.00%
+>Cluster 57
+0	53aa, >7md7_16... *
+1	53aa, >7md7_26... at 100.00%
+>Cluster 58
+0	48aa, >7md7_17... *
+1	48aa, >7md7_27... at 100.00%
+>Cluster 59
+0	37aa, >7md7_19... *
+1	37aa, >7md7_29... at 100.00%
+>Cluster 60
+0	23aa, >7md7_1u... *
+1	23aa, >7md7_2u... at 100.00%
