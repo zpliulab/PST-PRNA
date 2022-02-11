@@ -1,4 +1,4 @@
-![PST](https://github.com/zpliulab/PST-PRNA.git/img/pst.png)
+![PST](https://github.com/zpliulab/PST-PRNA/blob/main/img/pst.png)
 
 ## PST-PRNA: Prediction of RNA-Binding Sites Using Protein Surface Topography and Deep Learning.
 ## Description
