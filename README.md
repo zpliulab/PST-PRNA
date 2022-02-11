@@ -40,6 +40,6 @@ To predict new RNA-binding sites on newly protein, the topography preparing proc
 python predict.py
 
 ## Lisence
-PST-PRNA is released under an [MIT Lisense](LICENSE)
+PST-PRNA is released under an [MIT Lisense](LICENSE).
 ## Reference
-If you use this code, please use the bibtex entry in [citation.bib](citation.bib)
+If you use this code, please use the bibtex entry in [citation.bib](citation.bib).

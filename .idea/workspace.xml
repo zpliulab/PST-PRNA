@@ -16,6 +16,7 @@
       <list>
         <option value="BashSupport Pro Bash" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -466,7 +468,7 @@
       <workItem from="1643462953812" duration="3354000" />
       <workItem from="1643551676220" duration="325000" />
       <workItem from="1643725456356" duration="4073000" />
-      <workItem from="1643847839637" duration="15819000" />
+      <workItem from="1643847839637" duration="15991000" />
     </task>
     <servers />
   </component>
