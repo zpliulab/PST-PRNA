@@ -33,10 +33,12 @@ Change the paths of these executable file at default_config/bin_path.py.
 
 ### 3 Training
 To train an ab initio model, simply uses the script 'train.py'. Specific the RBPs list in default_config/dir_options:
+
 python train.py
 
 ### 4 Predicting
 To predict new RNA-binding sites on newly protein, the topography preparing process is needed. Then uses the script 'predict.py':
+
 python predict.py
 
 ## Lisence
