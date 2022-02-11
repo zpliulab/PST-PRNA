@@ -1,3 +1,6 @@
+![PST](https://github.com/zpliulab/PST-PRNA.git/img/pst.png)
+
+## PST-PRNA: Prediction of RNA-Binding Sites Using Protein Surface Topography and Deep Learning.
 ## Description
 PST-PRNA is a method to decipher RNA binding sites on protein surface based on protein surface topography. To achieve this, PST-PRNA builds the topographies and applies deep learning methods to learn from these. For convenient use, please visit the web service www.zpliulab.cn/PSTPRNA. For the standalone offline version, please install and use as follows.
 
@@ -41,7 +44,7 @@ To predict new RNA-binding sites on newly protein, the topography preparing proc
 ```
 python predict.py
 ```
-## Lisence
-PST-PRNA is released under an [MIT Lisense](LICENSE).
+## License
+PST-PRNA is released under an [MIT License](LICENSE).
 ## Reference
 If you use this code, please use the bibtex entry in [citation.bib](citation.bib).
