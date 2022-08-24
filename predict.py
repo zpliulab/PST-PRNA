@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from nn_module.resnet18 import resnet18
 from default_config.dir_options import dir_opts
 from nn_module.function import f1, auc, save_ckpt, WeightedMultilabel,adjust_learning_rate
-from data_loader.data_loader2 import data_loader
+from data_loader.data_loader import data_loader
 from sklearn.metrics import roc_curve, auc, recall_score, matthews_corrcoef,f1_score
 import shutil
 
