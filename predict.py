@@ -93,4 +93,6 @@ def predict():
 
 
 if __name__ == '__main__':
+    if os.path.exists(dir_opts['predict_result']):
+        os.mkdir(dir_opts['predict_result'])
     predict()
