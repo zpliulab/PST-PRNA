@@ -40,9 +40,11 @@ To train an ab initio model, simply uses the script 'train.py'. Specific the RBP
 python train.py
 ```
 ### 4 Predicting
-To predict new RNA-binding sites on newly protein, the topography preparing process is needed. Then uses the script 'predict.py':
+To predict new RNA-binding sites: a. set the dir_opts['PDB_list_to_predict'] (in default_config) referring to the list file containing the PDB names (one name one line) b. move the PDB files to folder dir_opts['raw_pdb_dir']:
+then execute：
+a. python prepare_all.py
+b. python predict.py
 ```
-python predict.py
 ```
 ## License
 PST-PRNA is released under an [MIT License](LICENSE).
