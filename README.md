@@ -42,9 +42,9 @@ python train.py
 ### 4 Predicting
 To predict new RNA-binding sites: a. set the dir_opts['PDB_list_to_predict'] (in default_config) referring to the list file containing the PDB names (one name one line) b. move the PDB files to folder dir_opts['raw_pdb_dir']:
 then execute：
+```
 a. python prepare_all.py
 b. python predict.py
-```
 ```
 ## License
 PST-PRNA is released under an [MIT License](LICENSE).
