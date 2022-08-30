@@ -72,13 +72,11 @@ def predict():
         model = model.cuda()
     val_set = data_loader(dir_opts['PDB_list_to_predict'], fold=None,is_train=False)
 
-    val_proba = []
-    val_true = []
+
     for feature, _, res_id_surface, res_id_all, pdb_id in val_set:
         criterion = WeightedMultilabel()
         proba_surface = val_batch(feature, model, criterion)
-
-        #copy useful files into file
+        proba_surface = proba_surface.detach().cpu().numpy()[:,1].tolist()
         if not os.path.exists(dir_opts['predict_dir']):
             os.mkdir(dir_opts['predict_dir'])
 
